@@ -1,4 +1,5 @@
 import db from '../database/connection';
+import connection from '../database/connection';
 
 export class IncidentController {
 
@@ -17,9 +18,20 @@ export class IncidentController {
     }
 
     async list(request, response) {
-        const incidents = await db("incidents").select("*");
 
-        return response.json(incidents);
+        const { page = 1 } = request.query;
+
+        const [count] = await connection('incidents')
+            .count();
+
+        const incidents = await db("incidents")
+            .limit(5)
+            .offset((page - 1) * 5)
+            .select("*");
+
+        response.header('X-Total-Count', count['count(*)']);
+
+        return response.json({ incidents });
     }
 
     async delete(request, response) {

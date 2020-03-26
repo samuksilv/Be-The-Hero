@@ -3,9 +3,9 @@ import db from '../database/connection';
 
 export class OngController {
 
-    async save(req, res) {
+    async create(request, response) {
 
-        const { name, email, whatsapp, city, uf } = req.body;
+        const { name, email, whatsapp, city, uf } = request.body;
 
         const id = crypto.randomBytes(4).toString("HEX");
 
@@ -14,13 +14,14 @@ export class OngController {
         });
 
 
-        return res.status(201).json({ id });
+        return response.status(201).json({ id });
     }
 
-    async list(req, res) {
-        const ongs = db("ongs").select("*");
+    async list(request, response) {
+        
+        const ongs = await db("ongs").select("*");
 
-        return res.json(ongs);
+        return response.json(ongs);
     }
 }
 

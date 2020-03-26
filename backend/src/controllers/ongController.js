@@ -14,7 +14,13 @@ export class OngController {
         });
 
 
-        return res.json({ id });
+        return res.status(201).json({ id });
+    }
+
+    async list(req, res) {
+        const ongs = db("ongs").select("*");
+
+        return res.json(ongs);
     }
 }
 

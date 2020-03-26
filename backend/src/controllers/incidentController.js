@@ -7,7 +7,7 @@ export class IncidentController {
         const { title, description, value } = request.body;
         const ong_id = request.headers.authorization;
 
-        const [id] = await db("incidents").insert({
+        const [id] = await db('incidents').insert({
             title,
             description,
             value,
@@ -24,10 +24,11 @@ export class IncidentController {
         const [count] = await connection('incidents')
             .count();
 
-        const incidents = await db("incidents")
+        const incidents = await db('incidents')
+            .join('ongs', 'ongs.id', '=','incidents.ong_id')
             .limit(5)
             .offset((page - 1) * 5)
-            .select("*");
+            .select('*');
 
         response.header('X-Total-Count', count['count(*)']);
 
@@ -38,15 +39,15 @@ export class IncidentController {
         const { id } = request.params;
         const ong_id = request.headers.authorization;
 
-        const incident = await db("incidents")
-            .where("id", id)
-            .select("ong_id")
+        const incident = await db('incidents')
+            .where('id', id)
+            .select('ong_id')
             .first();
 
         if (incident.ong_id !== ong_id)
-            return response.status(401).json({ error: "Operation not permitted." });
+            return response.status(401).json({ error: 'Operation not permitted.' });
 
-        await db("incidents").where('id', id).delete();
+        await db('incidents').where('id', id).delete();
 
         return response.status(204).send();
     }

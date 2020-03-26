@@ -1,4 +1,4 @@
-import db from "../database/connection";
+import db from '../database/connection';
 
 export class SessionController {
 
@@ -11,7 +11,7 @@ export class SessionController {
             .first();
 
         if (!ong)
-            return response.status(400).json({ error: "No ONG found with this ID." });
+            return response.status(400).json({ error: 'No ONG found with this ID.' });
 
         return response.json(ong);
     }

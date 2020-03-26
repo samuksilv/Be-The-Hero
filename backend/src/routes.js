@@ -1,8 +1,8 @@
-import { Router } from "express";
-import OngController from  "./controllers/ongController";
-import IncidentController from "./controllers/incidentController";
-import ProfileController from "./controllers/profileController";
-import SessionController from "./controllers/sessionController";
+import { Router } from 'express';
+import OngController from  './controllers/ongController';
+import IncidentController from './controllers/incidentController';
+import ProfileController from './controllers/profileController';
+import SessionController from './controllers/sessionController';
 
 const router = Router();
 

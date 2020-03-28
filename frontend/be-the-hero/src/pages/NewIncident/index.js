@@ -12,7 +12,7 @@ export default function NewIncident() {
                     <img src={logoImg} alt="Be The Hero" />
                     <h1>Cadastro novo caso</h1>
                     <p>Descreva um caso detalhadamente para encontrar um herói para resolver isso.</p>
-                    <Link to="/" className="back-link" >
+                    <Link to="/profile" className="back-link" >
                         <FiArrowLeft size={16} color="#e02041" />
                     Voltar para home
                 </Link>

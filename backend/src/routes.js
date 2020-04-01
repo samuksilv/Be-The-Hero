@@ -8,6 +8,7 @@ const router = Router();
 
 router.post('/ong', OngController.create);
 router.get('/ong', OngController.list);
+router.delete('/ong/:id', OngController.delete);
 
 router.post('/incident', IncidentController.create);
 router.get('/incident', IncidentController.list);

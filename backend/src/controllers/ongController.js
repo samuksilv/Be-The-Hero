@@ -18,10 +18,19 @@ export class OngController {
     }
 
     async list(request, response) {
-        
+
         const ongs = await db('ongs').select('*');
 
         return response.json(ongs);
+    }
+
+    async delete(request, response) {
+
+        const { id } = request.params;
+
+        const ong = await db('ongs').where('id', id).delete();
+
+        return response.status(204).send();
     }
 }
 

@@ -43,3 +43,15 @@
 .new-incident-container .content form textarea {
   margin-top: 8px;
 }
+
+/* Chrome, Safari, Edge, Opera */
+.content form input::-webkit-outer-spin-button,
+.content form input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.content form input[type=number] {
+  -moz-appearance: textfield;
+}

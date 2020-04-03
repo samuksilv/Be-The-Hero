@@ -84,3 +84,14 @@ form textarea {
 .back-link:hover {
   opacity: 0.8;
 }
+
+.Toastify__toast.Toastify__toast--success {
+  background: #33bb66;
+}
+.Toastify__toast.Toastify__toast--error {
+  background: #e02041;
+}
+
+.Toastify__toast {
+  border-radius: 6px !important ;
+}

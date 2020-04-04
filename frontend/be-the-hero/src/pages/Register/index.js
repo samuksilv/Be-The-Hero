@@ -4,7 +4,7 @@ import logoImg from "../../assets/logo.svg";
 import { Link } from 'react-router-dom';
 import { FiArrowLeft } from 'react-icons/fi';
 import api from '../../services/api';
-import { ToastContainer, toast } from "react-toastify";
+import { toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.min.css';
 
 export default function Register() {
@@ -25,24 +25,13 @@ export default function Register() {
             toast.success(`Seu ID de acesso: ${response.data.id}`);
 
         } catch (error) {
-            toast.error('Falha ao tentar cadastrar.');
+            toast.warn('Falha ao tentar cadastrar.');
         }
 
     }
 
     return (
         <div className="register-container">
-            <ToastContainer
-                position="top-right"
-                autoClose={8000}
-                hideProgressBar={false}
-                newestOnTop
-                closeOnClick={false}
-                rtl={false}
-                pauseOnVisibilityChange
-                draggable
-                pauseOnHover
-            />
 
             <div className="content">
                 <section>

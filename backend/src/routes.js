@@ -6,17 +6,17 @@ import SessionController from './controllers/sessionController';
 
 const router = Router();
 
-router.post('/ong', OngController.create);
-router.get('/ong', OngController.list);
-router.delete('/ong/:id', OngController.delete);
+router.post('/ongs', OngController.create);
+router.get('/ongs', OngController.list);
+router.delete('/ongs/:id', OngController.delete);
 
-router.post('/incident', IncidentController.create);
-router.get('/incident', IncidentController.list);
-router.delete('/incident/:id', IncidentController.delete);
+router.post('/incidents', IncidentController.create);
+router.get('/incidents', IncidentController.list);
+router.delete('/incidents/:id', IncidentController.delete);
 
-router.get('/profile/incident', ProfileController.list);
+router.get('/profiles/incidents', ProfileController.list);
 
-router.post('/session/login', SessionController.login);
+router.post('/sessions/login', SessionController.login);
 
 export default router;
 

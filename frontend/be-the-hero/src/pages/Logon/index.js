@@ -19,7 +19,7 @@ export default function Logon() {
         e.preventDefault();
 
         try {
-            const response = await api.post('session/login', { id });
+            const response = await api.post('sessions/login', { id });
 
             console.log(response);
 

@@ -20,7 +20,7 @@ export default function Register() {
         try {
             const data = { name, whatsapp, email, city, uf };
 
-            const response = await api.post('ong', data);
+            const response = await api.post('ongs', data);
 
             toast.success(`Seu ID de acesso: ${response.data.id}`);
 

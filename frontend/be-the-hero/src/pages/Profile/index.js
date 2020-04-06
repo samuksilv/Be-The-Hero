@@ -18,7 +18,7 @@ export default function Profile() {
     const [incidents, setIncidents] = useState([]);
 
     function loadIncidents() {
-        api.get('profile/incident',
+        api.get('profiles/incidents',
             {
                 headers: {
                     Authorization: ongId
@@ -40,7 +40,7 @@ export default function Profile() {
 
     async function handleDeleteIncident(id) {
         try {
-            await api.delete(`incident/${id}`, {
+            await api.delete(`incidents/${id}`, {
                 headers: {
                     Authorization: ongId
                 }

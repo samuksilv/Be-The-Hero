@@ -22,7 +22,7 @@ export default function NewIncident() {
         try {
             const data = { title, description, value };
 
-            const response = await api.post('incident', data, {
+            const response = await api.post('incidents', data, {
                 headers: {
                     Authorization: ongId
                 },

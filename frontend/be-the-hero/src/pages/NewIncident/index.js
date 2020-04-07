@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, useHistory } from 'react-router-dom';
 import { FiArrowLeft } from 'react-icons/fi';
-import {  toast } from "react-toastify";
+import { toast } from "react-toastify";
 import './styles.css';
 import logoImg from "../../assets/logo.svg";
 import api from "../../services/api";
@@ -54,15 +54,18 @@ export default function NewIncident() {
                 </section>
                 <form onSubmit={handleSubmit} >
                     <input
+                        required
                         type="text"
                         placeholder="Título do caso"
                         onChange={e => setTitle(e.target.value)}
                     />
                     <textarea
+                        required
                         placeholder="Descrição"
                         onChange={e => setDescription(e.target.value)}
                     />
                     <input
+                        required
                         step={0.01}
                         min={0.00}
                         type="number"

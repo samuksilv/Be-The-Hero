@@ -45,26 +45,31 @@ export default function Register() {
                 </section>
                 <form onSubmit={handleRegister} >
                     <input
+                        required
                         type="text"
                         placeholder="Nome da ONG"
                         onChange={e => setName(e.target.value)} />
                     <input
+                        required
                         type="email"
                         placeholder="E-mail"
                         onChange={e => setEmail(e.target.value)}
                     />
                     <input
-                        type="text"
+                        required
+                        type="tel"
                         placeholder="whatsapp"
                         onChange={e => setWhatsapp(e.target.value)}
                         maxLength={14} />
 
                     <div className="input-group">
                         <input
+                            required
                             type="text"
                             placeholder="Cidade"
                             onChange={e => setCity(e.target.value)} />
                         <input
+                            required
                             type="text"
                             placeholder="UF"
                             style={{ width: 80 }}

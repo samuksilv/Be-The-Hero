@@ -46,7 +46,7 @@ export class IncidentController {
         const { id } = request.params;
         const ong_id = request.headers.authorization;
 
-        if (ong_id)
+        if (!ong_id)
             return response.status(401).json({ error: 'Operation not permitted.' });
 
         const incident = await db('incidents')

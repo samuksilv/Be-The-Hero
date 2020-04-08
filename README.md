@@ -8,7 +8,6 @@
 - [x] ReactJs
 
 - [x] React Native
----
 
 ## Documentação (Insomnia)
 

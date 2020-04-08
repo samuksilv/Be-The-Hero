@@ -6,12 +6,11 @@
 
 
 ## Tecnologias utilizadas:
--- NodeJs
+- [x] NodeJs
  
--- ReactJs
+- [x] ReactJs
 
--- React Native
-
+- [x] React Native
 ---
 
 

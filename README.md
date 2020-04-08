@@ -3,7 +3,7 @@
 
 <img src="./mobile/src/assets/logo@3x.png" />
 
----
+
 
 ## Tecnologias utilizadas:
 -- NodeJs

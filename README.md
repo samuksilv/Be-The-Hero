@@ -10,7 +10,7 @@
 - [x] React Native
 
 
-# Plataformas:
+## Plataformas:
 
 - [x] Web
 - [x] Mobile (android e IOS)

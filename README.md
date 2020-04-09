@@ -3,12 +3,9 @@
 <img src="./mobile/src/assets/logo@2x.png" />
 
 ## Tecnologias utilizadas:
-- [x] NodeJs
- 
-- [x] ReactJs
-
-- [x] React Native
-
+ <span><img href="https://reactnative.dev/" src="https://img.shields.io/badge/ReactNative-Mobile-red.svg"/></span>
+ <span><img href="https://nodejs.org/en/" src="https://img.shields.io/badge/NodeJS-Backend-red.svg"/></span>
+ <span><img href="https://pt-br.reactjs.org/" src="https://img.shields.io/badge/React-Frontend-red.svg"/></span>
 
 ## Plataformas:
 

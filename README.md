@@ -9,11 +9,11 @@ Nele, ONG's iram cadastrar projetos e as pessoas interessadas poderam entrar em 
 
 ## Tecnologias utilizadas:
 
- <span><img href="https://nodejs.org/en/" src="https://img.shields.io/badge/Backend-Node%20Js-brightgreen"/></span>
+ <span><a href="https://nodejs.org/en/"> <img src="https://img.shields.io/badge/Backend-Node%20Js-brightgreen"/> </a> </span>
  
- <span><img href="https://nodejs.org/en/" src="https://img.shields.io/badge/Frontend-React%20Js-brightgreen"/></span>
+ <span><a href="https://pt-br.reactjs.org/"> <img src="https://img.shields.io/badge/Frontend-React%20Js-brightgreen"/> </a></span>
  
- <span><img href="https://nodejs.org/en/" src="https://img.shields.io/badge/Mobile-React%20Native-brightgreen"/></span>
+ <span><a href="https://reactnative.dev/"> <img src="https://img.shields.io/badge/Mobile-React%20Native-brightgreen"/> </a> </span>
 
 ## Plataformas:
  <span><img src="https://img.shields.io/badge/-Web-brightgreen"/></span>

@@ -1,4 +1,4 @@
-# Aplicativo Semana OminStack - **Be THe Hero**
+# Semana OminStack - Aplicativo **Be THe Hero**
 
 <img src="./mobile/src/assets/logo@2x.png" />
 

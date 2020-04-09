@@ -2,7 +2,7 @@
 
 <img src="./mobile/src/assets/logo@2x.png" />
 
-## Objetivo
+## Objetivo :bulb:
 
 O projeto Be The Hero irá conectar ONG's que necessitam de ajuda com pessoas que queiram ajudar.
 Nele, ONG's iram cadastrar projetos e as pessoas interessadas poderam doar um valor qualquer para a causa.
@@ -23,10 +23,3 @@ Nele, ONG's iram cadastrar projetos e as pessoas interessadas poderam doar um va
 ## Documentação da API(Insomnia) :
 
 [![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Be%20the%20Hero&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fsamuksilv%2Fbe-the-hero%2Fmaster%2Fbackend%2Fdocs%2FInsomnia_2020-04-07.json)
-
-
-
-
-
-
-

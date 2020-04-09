@@ -1,6 +1,6 @@
 # Aplicativo Semana OminStack - **Be THe Hero**
 
-<img src="./mobile/src/assets/logo@3x.png" />
+<img src="./mobile/src/assets/logo@2x.png" />
 
 ## Tecnologias utilizadas:
 - [x] NodeJs

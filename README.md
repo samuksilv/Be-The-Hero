@@ -4,14 +4,16 @@
 
 ## Tecnologias utilizadas:
 
- <span><img href="https://nodejs.org/en/" src="https://img.shields.io/static/v1?label=Backend&message=Node%20Js&color=success"/></span>
- <span><img href="https://pt-br.reactjs.org/" src="https://img.shields.io/static/v1?label=Frontend&message=React%20Js&color=success"/></span>
- <span><img href="https://reactnative.dev/" src="https://img.shields.io/static/v1?label=Frontend&message=React%20Native&color=success"/></span>
+ <span><img href="https://nodejs.org/en/" src="https://img.shields.io/badge/Backend-Node%20Js-brightgreen"/></span>
+ 
+ <span><img href="https://nodejs.org/en/" src="https://img.shields.io/badge/Frontend-React%20Js-brightgreen"/></span>
+ 
+ <span><img href="https://nodejs.org/en/" src="https://img.shields.io/badge/Mobile-React%20Native-brightgreen"/></span>
 
 ## Plataformas:
-
-- [x] Web
-- [x] Mobile (android e IOS)
+ <span><img src="https://img.shields.io/badge/-Web-brightgreen"/></span>
+ <span><img src="https://img.shields.io/badge/Mobile-IOS-brightgreen"/></span>
+ <span><img src="https://img.shields.io/badge/Mobile-Android-brightgreen"/></span>
 
 ## Documentação da API(Insomnia) :
 

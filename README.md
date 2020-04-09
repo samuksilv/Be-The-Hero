@@ -23,3 +23,16 @@ Nele, ONG's iram cadastrar projetos e as pessoas interessadas poderam entrar em 
 ## Documentação da API(Insomnia) :
 
 [![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Be%20the%20Hero&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fsamuksilv%2Fbe-the-hero%2Fmaster%2Fbackend%2Fdocs%2FInsomnia_2020-04-07.json)
+
+## Capturas de tela:
+ - ### Web:
+   - Login: <img src="https://github.com/samuksilv/be-the-hero/blob/master/images/printscrens-be-the-hero/web/login.png"/>
+   - Cadastro de uma nova ONG: <img src="https://github.com/samuksilv/be-the-hero/blob/master/images/printscrens-be-the-hero/web/new-ong.png"/>
+   - Home:<img src="https://github.com/samuksilv/be-the-hero/blob/master/images/printscrens-be-the-hero/web/home-web.png"/>
+   - Cadastro de um novo caso: <img src="https://github.com/samuksilv/be-the-hero/blob/master/images/printscrens-be-the-hero/web/new-incident.png"/>
+   
+---
+ - ### Mobile:
+   - Home: <img src="https://github.com/samuksilv/be-the-hero/blob/master/images/printscrens-be-the-hero/mobile/home.png"/>
+   - Detalhes de um caso: <img src="https://github.com/samuksilv/be-the-hero/blob/master/images/printscrens-be-the-hero/mobile/detail.png"/>
+

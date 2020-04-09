@@ -5,7 +5,7 @@
 ## Objetivo :bulb:
 
 O projeto Be The Hero irá conectar ONG's que necessitam de ajuda com pessoas que queiram ajudar.
-Nele, ONG's iram cadastrar projetos e as pessoas interessadas poderam doar um valor qualquer para a causa.
+Nele, ONG's iram cadastrar projetos e as pessoas interessadas poderam entrar em contato com a ONG pelos contatos que forem cadastrados e doar um valor qualquer para a causa.
 
 ## Tecnologias utilizadas:
 

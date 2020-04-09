@@ -4,9 +4,9 @@
 
 ## Tecnologias utilizadas:
 
- <span><img href="https://nodejs.org/en/" src="https://img.shields.io/badge/NodeJS-Backend-brightgreen.svg"/></span>
- <span><img href="https://pt-br.reactjs.org/" src="https://img.shields.io/badge/React-Frontend-brightgreen.svg"/></span>
- <span><img href="https://reactnative.dev/" src="https://img.shields.io/badge/ReactNative-Mobile-brightgreen.svg"/></span>
+ <span><img href="https://nodejs.org/en/" src="https://img.shields.io/static/v1?label=Backend&message=Node%20Js&color=success"/></span>
+ <span><img href="https://pt-br.reactjs.org/" src="https://img.shields.io/static/v1?label=Frontend&message=React%20Js&color=success"/></span>
+ <span><img href="https://reactnative.dev/" src="https://img.shields.io/static/v1?label=Frontend&message=React%20Native&color=success"/></span>
 
 ## Plataformas:
 
